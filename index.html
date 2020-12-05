@@ -13,68 +13,112 @@
     <title>Natália C</title>
 </head>
 <body>
-    <div class="container-fluid container-linear">
-        <div class="row container-card">
-            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
-                <div class="card card-perfil">
-                    <div class="img-card-perfil">
-                        <img src="./img/square.me.jpg" alt="Natália C" class="card-image mx-auto d-block">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="text-center card-title" id="nameHTML">Natália Camello</h5>
-                        <hr class="hr">
-                        <p class="text-center">
-                            Analista de Importação
-                        </p>
-                        <div class="botoes-card">
-                            <!-- <a href="#" class="btn ml-1 btn-card" id="btn-projetos">Projetos</a> -->
-                            <button onclick="clickAbout()" 
-                                    class="btn ml-1 btn-card" 
-                                    id="btn-sobre">
-                                    Sobre
-                            </button>
-                            <!-- <a href="#" class="btn mr-1" id="btn-sobre">Sobre</a> -->
-                            <button onclick="clickProject()"
-                                    class="btn ml-1 btn-card" 
-                                    id="btn-projetos">
-                                    Projetos
-                            </button>
+    <div class="ajuste">
+        <div class="container-fluid container-linear">
+            <div class="row container-card">
+                <div class="col-12 offset-lg-3 col-md-3 col-lg-3 card-col">
+                    <div class="card card-perfil">
+                        <div class="img-card-perfil">
+                            <img src="./img/square.me.jpg" alt="Natália C" class="card-image mx-auto d-block">
                         </div>
-                        <div class="icon-redes-sociais">
-                            <div class="links-redes-sociais mt-2">
-                                <a href="#">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
+                        <div class="card-body">
+                            <h5 class="text-center card-title" id="nameHTML">Natália Camello</h5>
+                            <hr class="hr">
+                            <p class="text-center">Analista de Importação</p>
+
+                            <div class="botoes-card">
+                                <div class="row">
+                                    <div class="col-12" style="display:flex; justify-content: center; margin-bottom: 7px">
+                                        <!-- <a href="#" class="btn ml-1 btn-card" id="btn-projetos">Projetos</a> -->
+                                        <button onclick="clickAbout()" 
+                                                class="btn ml-1 btn-card" 
+                                                id="btn-sobre">
+                                                Sobre
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12" style="display:flex; justify-content: center; margin-bottom: 7px">
+                                        <!-- <a href="#" class="btn mr-1" id="btn-sobre">Sobre</a> -->
+                                        <button onclick="clickProject()"
+                                                class="btn ml-1 btn-card" 
+                                                id="btn-projetos">
+                                                Formações
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12" style="display:flex; justify-content: center; margin-bottom: 7px">
+                                        <button onclick="clickWork()"
+                                                class="btn ml-1 btn-card" 
+                                                id="btn-work">
+                                                Experiências
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="icon-redes-sociais">
+                                <div class="links-redes-sociais mt-2">
+                                    <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
+                                    <a target="_blank" href="https://github.com/natcmll"><i class="fab fa-github"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/natcmll/"><i class="fab fa-linkedin"></i></a>
+                                    <a target="_blank" href="https://instagram.com/natcmll"><i class="fab fa-instagram"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 col-lg-6 text-body">
-                <div id="texto-1" class="text">
-                    <h1 class="title-text">Olá,</h1>
-                    <h4 class="title-subtitle">Bem-vindo ao meu currículo!</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio ratione recusandae obcaecati doloribus, dolores quaerat velit.</p>
-                    <p>Dolores qui officiis, commodi repellat animi porro libero optio. Laborum, quas explicabo inventore unde eligendi aut optio voluptate, commodi totam, necessitatibus eos.</p>
-                </div>
+                <div class="col-md-6 col-lg-6 text-body">
+                    <div id="texto-1" class="text">
+                        <h1 class="title-text">Olá,</h1>
+                        <h4 class="title-subtitle">Bem-vindo ao meu currículo!</h4>
+                        <p>Graduada em Comércio internacional pela UCS, trabalha com prestação
+                            de serviços de assessoria em comércio internacional desde 2016, com 
+                            foco na área da importação.</p>
+                        <p>Exerce funções de atendimento ao cliente e organização de processos
+                            de importação, bem como todos os documentos e procedimentos necessários
+                            para liberação e desembaraço de mercadorias, desde a elaboração de
+                            estimativa de custos para viabilização do projeto, até o acompanhamento
+                            da chegada da carga no importador.</p>
+                    </div>
 
-                <div id="texto-2" class="text">
-                    <h1 class="title-text">Projetos</h1>
-                    <h4 class="title-subtitle">Alguns projetos que trabalhei:</h4>
-                    <p>
-                        <a target="_blank" href="https://github.com/natcmll">
-                        Meu github</a>
-                    </p>
+                    <div id="texto-2" class="text">
+                        <h1 class="title-text">Formações</h1>
+                        <!-- <h4 class="title-subtitle">Acadêmica e demais cursos:</h4> -->
+                        <p> <br>
+                            Graduação <br>
+                            - Comércio Internacional - UCS, 2019. <br> <br>
+                            <!-- - Ciência da Computação - UCS, em andamento. <br> -->
+                            <!-- - Engenharia Ambiental - UDESC, interrompido. <br><br> -->
+                            Pós Graduação <br>
+                            - Perícia Aduaneira em Comércio Exterior - Unyleya, 2020. <br>
+                            <br>
+                            Idiomas <br>
+                            - Português nativo; <br>
+                            - Inglês avançado (EC); <br>
+                            - Espanhol intermediário (PLE); <br>
+                            - Alemão e Mandarim básicos (PLE).
+                            <!-- <a target="_blank" href="https://github.com/natcmll">
+                            Meu github</a> -->
+                        </p>
+                    </div>
+
+                    <div id="texto-3" class="text">
+                        <h1 class="title-text">Experiências</h1>
+                        <p> <br>
+                            AGE Comex <br>
+                            - Atualmente ⠀⠀| Analista de Importação; <br>
+                            - 08/18 - 06/19⠀| Assistente de Importação. <br><br>
+                            Efficienza Negócios Internacionais <br>
+                            - 12/16 - 12/17⠀| Assistente de Importação;<br>
+                            - 08/16 - 12/16⠀| Estagiária de Importação.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,19 +126,21 @@
 
     <footer class="container">
         <div class="row" id="footer-elementos">
-            <div class="col-md-3 col-lg-3">
+            <div class="col-12 col-lg-3">
                 <div class="telefone mt-3">
-                    <h4>Telefone</h4>
-                    <p>(49) 99909-9701</p>
+                    <div class="row">
+                        <h4>Telefone</h4><p>(49) 99909-9701</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3">
+            <div class="col-12 col-lg-3">
                 <div class="email">
-                    <h4>E-mail</h4>
-                    <p>nataliaspindola@live.com</p>
+                    <div class="row">
+                        <h4>E-mail</h4><p>nataliaspindola@live.com</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3">
+            <!-- <div class="col-12 col-lg-3">
                 <h4 class="follow mt-3">Siga</h4>
                 <div class="links-redes-sociais">
                     <a href="#">
@@ -110,16 +156,17 @@
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
+            </div> -->
+        </div>
+    
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12" id="copyright">
+                <small>© 2020 Natália Camello. All rights reserved 
+                    <a href="https://natcmll.github.io/ncmll/" target="_blank">NCMLL</a> .
+                <img class="footer-icon" src="./img/nc-nobg-fr.png" alt="NCMLL">
+                </small>
             </div>
         </div>
     </footer>
-
-    <div class="row text-center mb-2">
-        <div class="col-lg-12 col-md-12 copyright">
-            <small>© 2020 <a href="#">NATCMLL</a> . All rights reserved
-            <img class="footer-icon" src="./img/nc-nobg-fr.png" alt="NCMLL">
-            </small>
-        </div>
-    </div>
 </body>
 </html>
